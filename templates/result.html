@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Segmentation Result</title>
+	<style>
+		body {
+			background-color: #fdf5e6;
+		}
+		h1 {
+			text-align: center;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			border: 1px solid black;
+			max-width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Image Segmentation Result</h1>
+	<img src="{{ url_for('static', filename='segmented_images/segmented_image.jpg') }}" alt="segmented image">
+</body>
+</html>
